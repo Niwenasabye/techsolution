@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>courses</title>
+	<link rel="stylesheet" type="text/css" href="courses.css">
+</head>
+<body>
+	<a href="#" onclick="togglePopup()">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		Programming
+	</a>
+		<a href="#" onclick="togglePopup()">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		Networking
+	</a>
+	<a href="#" onclick="togglePopup()">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+		Hacking
+	</a>
+	
+<div class="popup" id="popup-1">
+	<div class="overlay"></div>
+<div class="content">
+	<div class="close-btn" onclick="togglePopup()">&times;</div>
+	<p>The contents are still being worked on, they will be 
+		added soon.
+	</p>
+</div>
+</div>
+<script>
+
+	function togglePopup(){
+		document.getElementById("popup-1").classList.toggle("active");
+	}
+	
+</script>
+
+
+</body>
+</html>

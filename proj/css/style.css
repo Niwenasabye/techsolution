@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
+body {
+  line-height: 1.4;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #848484;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+}
+
+
+
+.border {
+  height: 2px;
+  margin: 20px auto 20px;
+  position: relative;
+  width: 80px;
+  background: #28ABE3;
+}
+
+.bg-gray {
+  background: #f9f9f9;
+}
+.btn-main {
+  background: #28ABE3;
+  border: 1px solid #28ABE3;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.btn-main:hover {
+  color: #fff;
+}
+
+.btn-transparent {
+  color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 14px 35px;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.btn-transparent:hover {
+  color: #fff;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+
+/*=================================================================
+  Services section
+==================================================================*/
+.services {
+  padding: 100px 0 130px;
+}
+
+.services .service-block.color-bg {
+  background: #28ABE3;
+  color: #fff;
+}
+
+.services .service-block.color-bg i, .services .service-block.color-bg h3, .services .service-block.color-bg p {
+  color: #fff;
+}
+
+.services .service-block .service-icon {
+  margin-bottom: 30px;
+}
+
+.services .service-block i {
+  font-size: 75px;
+  color: #28ABE3;
+}
+
+.services .service-block h3 {
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.services .service-block p {
+  font-size: 14px;
+  color: #666;
+}
+
+/*=================================================================
+  Services section 2
+==================================================================*/
+.service-2 .service-item {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+  padding: 50px 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.service-2 .service-item:hover {
+  box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 5px 65px 0 rgba(0, 0, 0, 0.15);
+}
+
+.service-2 .service-item:hover i {
+  background: #fff;
+  color: #28ABE3;
+}
+
+.service-2 .service-item i {
+  font-size: 30px;
+  display: inline-block;
+  background: #28ABE3 none repeat scroll 0 0;
+  border-radius: 30px;
+  box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+  height: 55px;
+  line-height: 55px;
+  margin-bottom: 20px;
+  width: 55px;
+  transition: all 0.3s ease 0s;
+}
+
+/*=================================================================
+  Our skills
+==================================================================*/
+.team-skills .progress-block {
+  margin-top: 40px;
+}
+
+.team-skills .progress-block span {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.team-skills .progress-block .progress {
+  box-shadow: none;
+  border-radius: 0;
+  height: 10px;
+}
+
+.team-skills .progress-block .progress .progress-bar {
+  background: #28ABE3;
+  box-shadow: none;
+}
+
+.clients-logo-slider {
+  margin-top: 50px;
+}
+
+
+
+
+
+
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+@media only screen and (max-width: 767px) {
+
+ 
+  /* services */
+  #services .title {
+    padding-bottom: 60px;
+  }
+  /* our skills */
+  .skill-chart {
+    margin: 0 auto 40px;
+    width: 280px;
+  }
+ 
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .title h2 {
+    font-size: 32px;
+  }
+  .counter .counter-title h2 {
+    font-size: 35px;
+  }
+  /* about us */
+  .wrap-about {
+    margin: 0 auto 75px;
+    width: 70%;
+  }
+  /* our team */
+  .team-mate {
+    margin: 0 auto 30px;
+    width: 280px;
+  }
+  .team-mate img {
+    margin: 0 auto;
+  }
+  /* portfolio */
+  .og-grid li {
+    width: 245px;
+  }
+  /* skills */
+  .skill-chart {
+    margin: 0 auto 40px;
+    width: 300px;
+  }
+  /* pricing table */
+  .pricing {
+    margin: 0 auto 30px;
+    width: 350px;
+  }
+  /* testimonials */
+  .client-info {
+    width: 74%;
+  }
+  /* latest posts */
+  #blog {
+    padding-bottom: 0;
+  }
+  .note {
+    margin: 0 auto 30px;
+    width: 75%;
+  }
+  /* contact */
+  .contact-info {
+    width: 100%;
+  }
+  /* blog page */
+  .tab-post-nav li a {
+    padding: 10px 15px;
+  }
+}
+
+/*# sourceMappingURL=maps/style.css.map */
